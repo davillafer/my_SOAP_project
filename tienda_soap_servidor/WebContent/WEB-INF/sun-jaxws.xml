@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name="UserWSImpl"	implementation="ws.proyecto.tienda.webservice.UserWS" url-pattern="/soapws/user" />
+	<endpoint name="BoardGameImpl"	implementation="ws.proyecto.tienda.webservice.BoardGameWS" url-pattern="/soapws/boardgame" />
+	<endpoint name="OrderGameImpl"	implementation="ws.proyecto.tienda.webservice.OrderWS" url-pattern="/soapws/order" />
+	<endpoint name="BoardGameOrderImpl"	implementation="ws.proyecto.tienda.webservice.BoardGameOrderWS" url-pattern="/soapws/boardgameorder" />
+</endpoints>
